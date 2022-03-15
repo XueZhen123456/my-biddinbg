@@ -1,0 +1,215 @@
+html{
+    background-color: antiquewhite;
+}
+
+nav {
+    background: #FFCCCB;
+    display:flex;
+    padding: 10px;
+    border: solid purple 3px;
+}
+
+nav a{
+    color: Ivory;
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid Ivory;
+    margin: 5px;
+    font-size: 130%;
+    border-radius: 10%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+a:hover{
+    background-color: ivory;
+    color: lightblue;
+    font-weight: bold;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#LoginButton{
+    background-color: lightblue;
+    color: ivory;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#SignUpButton{
+    background-color: lightblue;
+    color: ivory;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+h1{
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    border: 3px solid purple;
+    align-content: center;
+    justify-content: center;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+img:hover{
+    width: 100%;
+}
+
+.smile{
+    width: 5%;
+}
+
+.aqua{
+    color: aquamarine;
+}
+
+main{
+    text-align: center;
+    background-color: aquamarine;
+    padding:20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    border: 3px solid purple;
+    align-content: center;
+}
+
+p{
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+article{
+    background-color: burlywood;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border: solid 3px brown;
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+}
+
+section{
+    align-content: center;
+    justify-content: center;
+}
+
+
+#Ad{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    float: left;
+}
+
+div{
+    align-content: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: lemonchiffon;
+    border: 3px solid purple;
+    margin: 5px;
+    padding: 5px;
+}
+
+.flex1{
+    flex: 1;
+}
+
+.flex2{
+    flex: 2;
+}
+
+.flex4{
+    flex: 4;
+}
+
+form{
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.cancelbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: lightcoral;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.loginbtn{
+    background-color: lightgreen;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.imgcontainer{
+    text-align: center;
+    margin: 24px  12px ;
+}
+
+img.avatar{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container{
+    padding: 16px;
+}
+
+span.psw{
+    float: right;
+    padding-top: 16px;
+}
+
+span.psw{
+    display: block;
+    float: none;
+} 
+
+.cancelbtn{
+    width: 100%;
+}
